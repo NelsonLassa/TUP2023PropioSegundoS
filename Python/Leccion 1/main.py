@@ -91,3 +91,5 @@ print("\n", cocina)
 
 # del cocina
 # esto se utiliza para eliminar la tupla
+
+# Colecciones tipo set
