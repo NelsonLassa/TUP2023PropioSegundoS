@@ -22,6 +22,7 @@ public class Ejercicio02 {
             En se puede reducir a menos lineas
              */
             if (numero != 0) {
+                //Expresion ternaria ? Verdadero : Falso
                 String resultado = (numero > 0) ? "Positivo" : "Negativo";
               /* Evitamos la consola fea
                System.out.println("El número " + numero + " es " + resultado);
