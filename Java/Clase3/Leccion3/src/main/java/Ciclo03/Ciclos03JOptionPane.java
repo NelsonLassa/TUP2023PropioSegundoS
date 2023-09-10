@@ -41,6 +41,5 @@ public class Ciclos03JOptionPane {
             numero=Integer.parseInt(JOptionPane.showInputDialog("Digite otro número ciclo while"));
         }
         JOptionPane.showMessageDialog(null,"El número " + numero + " finaliza el programa de while");
-
     }
 }
