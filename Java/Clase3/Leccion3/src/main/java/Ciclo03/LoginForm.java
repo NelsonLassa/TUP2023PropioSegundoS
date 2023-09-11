@@ -9,6 +9,7 @@ public class LoginForm extends JFrame implements ActionListener {
     private JPasswordField passwordField;
     private JButton loginButton;
 
+
     public LoginForm() {
         setTitle("Login Form");
 
