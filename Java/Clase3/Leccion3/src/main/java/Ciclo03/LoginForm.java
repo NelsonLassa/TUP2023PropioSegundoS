@@ -43,7 +43,7 @@ public class LoginForm extends JFrame implements ActionListener {
         GridBagConstraints constraints = new GridBagConstraints();
         constraints.insets = new Insets(5, 5, 5, 5);
 
-        JLabel usernameLabel = new JLabel("Username:");
+        JLabel usernameLabel = new JLabel("Propietario:");
         JLabel passwordLabel = new JLabel("Password:");
 
         Font font = new Font("Arial", Font.PLAIN, 28);
