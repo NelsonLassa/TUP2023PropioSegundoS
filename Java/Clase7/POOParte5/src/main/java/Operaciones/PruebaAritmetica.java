@@ -45,7 +45,12 @@ class Persona {
     Persona(String nombre, String apellido) {
         // Es un constuctor que esta apuntando
         // hacia los atributos creados en esta nueva clase
-        super(); // metodo constructor de la clase padre, no necesita argumentos
+        //super(); // metodo constructor de la clase padre, no necesita argumentos
+        // TODO: CONSTRUCTOR DE LA CLASE IMPRIMIR SE USA CUANDO NO ESTA DENTRO DEL CUERPO
+        // TODO DONDE ESTAN TODAS LAS CLASES
+        //Imprimir imprimir = new Imprimir();
+        // TODO: SI ESTA EN EL MISMO CUERPO SE INSTANCIA DE LA SIGUENTE MANERA
+        new Imprimir().imprimir(this);
         this.nombre = nombre;
         this.apellido = apellido;
         System.out.println("Objeto persona usando this: " + this);
