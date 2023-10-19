@@ -8,12 +8,17 @@ public class Empleado extends Persona {
     private static int contadorEmpleados; // Es para incrementar
 
     // Constructor
-    public Empleado(String nombre, double sueldo) {
-        super(nombre); // Esto se utiliza si se necesita llamar a un atributo del padre
+    // Constructor
+    public Empleado() {// constructo1
         this.idEmpleado = ++Empleado.contadorEmpleados;
-        this.sueldo = sueldo;
     }
 
+    public Empleado(String nombre, double sueldo) { //constructo2
+        //super(nombre); // Esto se utiliza si se necesita llamar a un atributo del padre
+        this(); // Estamos llamando desde aqui al cosntructor vacio (llamar a un constructor)
+        this.nombre = nombre;
+        this.sueldo = sueldo;
+    }
     public int getIdEmpleado() {
         return this.idEmpleado;
     }
